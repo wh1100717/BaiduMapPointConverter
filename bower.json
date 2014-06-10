@@ -1,0 +1,29 @@
+{
+  "name": "BaiduMapPointConverter",
+  "version": "0.0.1",
+  "homepage": "https://github.com/wh1100717/BaiduMapPointConverter",
+  "authors": [
+    "Wang Hao <eric.3126@hotmail.com>"
+  ],
+  "description": "converting the point/coordinate from BAIDU map webpage",
+  "main": "bmpointconverter.js",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "baidu",
+    "map",
+    "point",
+    "coordinate",
+    "converter"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
