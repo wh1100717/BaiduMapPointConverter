@@ -48,9 +48,6 @@ ConvertPoint.prototype.getLoop = (a, b, c) ->
 	a += c - b while a < b
 	return a
 
-pp = new ConvertPoint(12958160.97, 4825907.72)
-console.log pp
-console.log pp.convertMC2LL()
+root = exports ? window
+root.ConvertPoint = ConvertPoint
 
-aaa = new ConvertPoint(116.403874,39.914889)
-console.log(aaa.convertLL2MC())

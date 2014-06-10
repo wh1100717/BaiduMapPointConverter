@@ -6,7 +6,7 @@
     "Wang Hao <eric.3126@hotmail.com>"
   ],
   "description": "converting the point/coordinate from BAIDU map webpage",
-  "main": "bmpointconverter.js",
+  "main": "dist/bmpointconverter.js",
   "moduleType": [
     "globals"
   ],
@@ -22,8 +22,6 @@
   "ignore": [
     "**/.*",
     "node_modules",
-    "bower_components",
-    "test",
-    "tests"
+    "bower_components"
   ]
 }
