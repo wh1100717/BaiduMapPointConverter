@@ -16,8 +16,8 @@ ConvertPoint.prototype.convertMC2LL = ->
 	for i in [0...@MCBAND.length] when lat >= @MCBAND[i]
 		cF = @MC2LL[i]
 		break
-	T = this.convertor(cF)
-	return {lng:T.lng.toFixed(6), lat:T.lat.toFixed(6)}
+	point = this.convertor(cF)
+	return {lng:point.lng.toFixed(6), lat:point.lat.toFixed(6)}
 
 ConvertPoint.prototype.convertLL2MC = ->
 	lng = @getLoop(@lng, -180, 180)
@@ -29,8 +29,8 @@ ConvertPoint.prototype.convertLL2MC = ->
 		for j in [length - 1..0] when lat <= -@LLBAND[i]
 			cF = @LL2MC[i]
 			break
-	T = this.convertor(cF)
-	return {lng:T.lng.toFixed(2), lat:T.lat.toFixed(2)}
+	point = this.convertor(cF)
+	return {lng:point.lng.toFixed(2), lat:point.lat.toFixed(2)}
 
 ConvertPoint.prototype.convertor = (cF) ->
 	return if not cF

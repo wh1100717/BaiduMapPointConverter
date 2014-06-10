@@ -15,10 +15,11 @@
     "map",
     "point",
     "coordinate",
-    "converter"
+    "converter",
+    "convertor"
   ],
   "license": "MIT",
-  "private": true,
+  "private": false,
   "ignore": [
     "**/.*",
     "node_modules",
